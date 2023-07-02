@@ -14,6 +14,7 @@ body{
      width:100%;  */
     height:100vh;
     background-image:url("https://tse4.mm.bing.net/th?id=OIP.bhwTFWiglSDg4NGVdAm1ugHaEo&pid=Api&P=0&h=180"); 
+    background-repeat: no-repeat;
     background-size : cover;
     background-position:center;  
 }
@@ -100,7 +101,7 @@ nav ul li a:hover::after{
 .sub-title{
     font-size: 60px;
     font-weight:600;
-    color:#fff;
+    color:#ff0586;
 }
 .tab-titles{
     display:flex;
@@ -175,7 +176,7 @@ nav ul li a:hover::after{
 }
 .services-list div a{
     text-decoration:aqua;
-    color:#ffffff;
+    color:#08f49a;
     font-size:12px;
     margin-top:20px;
     display:inline-block;
@@ -186,7 +187,7 @@ nav ul li a:hover::after{
     font-size:15px;
 }
 #pinky{
-    color:rgb(4, 244, 188);
+    color:rgb(16, 1, 16);
 }
 .services-list :hover{
     background:#191718;
@@ -197,14 +198,14 @@ nav ul li a:hover::after{
     /* padding:50px;
     background-color: rgb(8, 44, 252);
     color:black; */
-    background-image:url("https://images.pexels.com/photos/4992805/pexels-photo-4992805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-image:url("https://img.freepik.com/free-photo/blank-papers-isolated-grey-surface_114579-34461.jpg"); 
     background-repeat: no-repeat;
     background-size : cover;
     background-position:center;  */
 }
 th,td{
     border-style:solid;
-    border-color:#96D4D4;
+    border-color:#038d8a;
 }
 td{
     height:80px;
@@ -221,6 +222,7 @@ th{
 td {
     text-align:center;
 }
+
 .contact-left{
     flex-basis:35%;
 
@@ -303,4 +305,4 @@ form .btn2{
     background:#262626;
     font-weight:300;
     margin-top:20px;
-} */
+} 
