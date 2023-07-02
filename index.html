@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/81fcbf21e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+           
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" id="varsha" onclick="openmenu()"></i>
+        </nav>
+        <br>
+        <br>
+        <center><div class="logo"> WELCOME TO MY PORTFOLIO</div></center>
+        <div class="header-text">
+            <h5 align="center">HELLO EVERYONE</h5>
+            <h1 align="center"><span>I'M Kunta Praneetha</span></h1>
+            <h4 style="color:black">This is my official portfolio website to show all <center>My Details and projects i have done.</center></h4>
+            <center><a href="c:\Users\nr225\Downloads\kunta_praneetha_Resume_02-07-2023-00-30-26.pdf" download class="btn btn2 bt1">Download Resume</a></center>
+        </div>
+    </div>
+  
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="images/photo1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>•I am an enthusiastic learner capable of learning new technologies</p> 
+                <p>•Looking to start my career with an entry-level opportunity in an <br>
+                admired organization where I can utilize my skills and enhance in the field of work.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('education')">EDUCATION</p>
+                    <p class="tab-links" onclick="opentab('skills')">SKILLS</p>
+                    <p class="tab-links" onclick="opentab('area')">AREA OF INTEREST</p>
+                </div>
+               <div class="tab-contents active-tab" id="education">
+                    <ul style="color:white;">
+                        <li><span style="font-size:20px;">Bachelor of Technology</span><br>CMR Technical Campus,Medchal,Hyderabad<br>2020-2024<br>GGPA:8.43*</li>
+                        <li><span style="font-size:20px;">Intermediate</span><br>NRI Junior College,Hyderabad<br>2018-2020<br>GGPA:9.65</li>
+                        <li><span style="font-size:20px;">Class X</span><br>GENIUS High School,Kurnool<br>2017-2018<br>GGPA:9.0</li>
+                    </ul >
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul style="color:white;">
+                        <li><span>Programming Languages</span>: C++,Python,C,Java</li>
+                        <li><span>Web Technologies</span>     : HTML5, CSS3, Javascript</li>
+                        <li><span>Database Technologies</span>: SQL,Mysql</li>
+                        <li><span>Operating Systems</span>    : Windows,Android</li>
+                        <li><span>Other Tools</span>          : Visual Studio Code,Dev C++</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="area">
+                    <ul style="color:white;">
+                        <li>Software Developer</li>
+                        <li>Web Development</li>
+                        <li>Data Structures And Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<section id="service">
+    <center>
+        <div class="container">
+            <h1 class="sub-title" align="center">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h2>Crime Prediction And Analysis Using K-Means Algorithm</h2>
+                    <p>•This system will prevent crime from occurring in society. 
+                      K-means clustering algorithm extracts information and patterns 
+                      from the database. and plot a graph</p>
+                       <br><br>
+                    <h4>Technologies and Tools Used:<br><br><span id="var">Python3.7 ,Mechine Learning ,VS Code</span></h4>
+    
+                       <!-- <a class="btn" href ="#" sytle="font-size:10px;">VIEW</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h2>PORTFOLIO</h2>
+                    <p> It describe my skills and achievements.</p><br><br>
+                    <h4>Technologies and Tools Used:<br><br><span id="var">HTML5 ,CSS ,Javascript</span></h4>
+                    <br>
+    
+                    <!-- <a class="btn" href ="#" sytle="font-size:10px;">VIEW</a> -->
+                </div>
+            </div>
+        </div>
+    </center>
+    
+</section>
+
+
+<div id="portfolio">
+    <div class="container">
+        
+        <h1 class="sub-title" id="pinky" align="center">MY CODING PLATFORMS</h1>
+                <center><table style="width:100%">
+                    <tr>
+                        <th>CODING PROFILE</th>
+                        <th>LINKS</th>
+                    </tr>
+                    <tr>
+                        <td>LEETCODE</td>
+                        <td><a href="https://leetcode.com/207r1a05f4/">leetcode</a></td>
+                    </tr>
+                    <tr>
+                        <td>CODECHEF</td>
+                        <td><a href="https://www.codechef.com/users/praneetha_5f4">codechef</a></td>
+                    </tr>
+                    <tr>
+                        <td>VJUDGE</td>
+                        <td><a href="https://vjudge.net/user/207r1a05f4">vjudge</a></td>
+                    </tr>
+                </table></center>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+       <div class="row">
+        <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelopes-bulk"></i>pranithareddi31@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>7816039165</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/praneetha-reddy-27462320a"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/praneetha-kunta"><i class="fa-brands fa-github"></i></a>
+            
+        </div>
+        
+    </div>
+    <div class="contact-right">
+        <form action="https://formspree.io/f/mbjvrwep" method="POST">
+            <input type="text"  name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+        </form>
+    </div>
+       </div> 
+    </div>
+    <div class="copyright">
+        <p>copyright © KUNTA PRANEETHA</p>
+    </div>
+</div>
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent  of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+</body>
+</html>
